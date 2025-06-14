@@ -1,3 +1,6 @@
+substitutions:
+  device_id: "01"
+
 esphome:
   name: ble-proxy-xiao-${device_id}
   friendly_name: BLE Proxy Xiao ${device_id}
@@ -5,7 +8,7 @@ esphome:
   comment: "XIAO ESP32C3 BLE Proxy"
 
 esp32:
-  board: xiao_esp32c3
+  board: seeed_xiao_esp32c3
   variant: esp32c3
   framework:
     type: esp-idf
