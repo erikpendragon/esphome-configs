@@ -1,6 +1,3 @@
-substitutions:
-  device_id: "01"
-
 esphome:
   name: ble-proxy-xiao-${device_id}
   friendly_name: BLE Proxy Xiao ${device_id}
@@ -30,7 +27,6 @@ ota:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
-
   ap:
     ssid: "BLE Proxy ${device_id}"
     password: !secret fallback_ap_password
