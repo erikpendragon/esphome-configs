@@ -19,7 +19,7 @@ esp32_ble_tracker:
 
 api:
   encryption:
-    key: ${esphome_encryption_key}
+    key: ${esphpme_encryption_key}
 
 ota:
   password: ${esphome_ota_password}
